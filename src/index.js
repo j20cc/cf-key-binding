@@ -11,7 +11,7 @@
 const keys = {
 	kYwCz: {
 		email: 'kYwCz@example.com',
-		expire_time: '2024-04-15',
+		expire_time: '2025-04-15',
 	},
 };
 
@@ -30,7 +30,7 @@ export default {
 
 			try {
 				const value = await env.key_binding.get(key);
-				console.log('value:', value, new Date());
+				// console.log('value:', value, new Date());
 
 				let info = {
 					device,
